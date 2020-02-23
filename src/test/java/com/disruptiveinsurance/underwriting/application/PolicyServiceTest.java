@@ -8,7 +8,7 @@ class PolicyServiceTest {
 
     @Test
     public void testConstruction() {
-        var shouldInstantiate = new PolicyService();
+        PolicyService shouldInstantiate = new PolicyService();
     }
 
 }
