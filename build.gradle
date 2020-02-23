@@ -43,9 +43,9 @@ test {
 
 jacocoTestReport {
     reports {
-        xml.enabled false
         xml.enabled true
-        csv.enabled false
+        xml.enabled true
+        csv.enabled true
         html.destination file("${buildDir}/jacocoHtml")
     }
 }
@@ -60,5 +60,6 @@ jacocoTestCoverageVerification {
     }
 }
 
+jacocoTestCoverageVerification.dependsOn jacocoTestReport
 check.dependsOn jacocoTestCoverageVerification
 build.dependsOn check
