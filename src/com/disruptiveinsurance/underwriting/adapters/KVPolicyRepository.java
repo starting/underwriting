@@ -1,4 +1,6 @@
 package com.disruptiveinsurance.underwriting.adapters;
 
-public class KVPolicyRepository {
+import com.disruptiveinsurance.underwriting.model.PolicyRepository;
+
+public class KVPolicyRepository implements PolicyRepository {
 }

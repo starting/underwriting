@@ -1,4 +1,7 @@
 package com.disruptiveinsurance.underwriting.model;
 
-public class PolicyRepository {
+/**
+ * An interface to retrieve policy information
+ */
+public interface PolicyRepository {
 }
